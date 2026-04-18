@@ -1,16 +1,24 @@
 {
-  "name": "vite_react_shadcn_ts",
+  "name": "resnur-ai",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
+  "description": "Resnur — AI learning & building platform (Vite, React, TypeScript, Tailwind, shadcn-style UI).",
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=9.0.0"
+  },
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "build:dev": "vite build --mode development",
-    "lint": "eslint .",
     "preview": "vite preview",
+    "lint": "eslint .",
+    "typecheck": "tsc -b",
     "test": "vitest run",
-    "test:watch": "vitest"
+    "test:watch": "vitest",
+    "setup": "npm install",
+    "verify": "npm run typecheck && npm run build && npm test"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.10.0",
