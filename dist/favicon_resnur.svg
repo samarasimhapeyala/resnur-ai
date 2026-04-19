@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" role="img" aria-label="resnur">
+  <defs>
+    <linearGradient id="f" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="100%" stop-color="#3b82f6"/>
+    </linearGradient>
+  </defs>
+  <rect width="32" height="32" rx="8" fill="#020617"/>
+  <path
+    fill="url(#f)"
+    d="M18.2 4 6.5 17.2h7.1L11.8 28 25.5 14.8h-7.1L18.2 4Z"
+  />
+</svg>
